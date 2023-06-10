@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display:flex;
+    gap: 40px;
+    height: 44px;
+    width: 100%;
+}
+.flex{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.images{
+    display: flex;
+    margin-left: 248px;
+    gap: 40px;
+    margin-right: 248px;
+    
+    /* color: #f5f5f7; */
+}
+
+/* .hover-links{
+    
+    /* margin-left: 40px; */
+    /* size: 14px;
+    gap: 40px;
+    transition: 0.2s ease-out;
+    color: aqua;
+    
+}
+.hover-links:hover{
+    background-color: aqua;
+} */ 
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(photos/asset\ 4.jpeg);
+    background-size: 1850px;
+    
+    
+}
+.bb{
+    margin-top: 300px;
+}
+.pp{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #f5f5f7;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    max-width: 750px;
+    margin-left: 400px;
+    font-weight: 700;
+}
+/* .primary-button{
+
+    text-decoration: none;
+    border-radius: 980px solid white;
+    font-size: larger;
+    color: aliceblue;
+    border: 30px solid white;
+} */
+.hover-links{
+    /* background-color: ; */
+    transition: 0.2s ease-out;
+    margin: 5px 5px;
+    gap: 20px;
+    text-decoration: none;
+    border: 2px;
+    border-radius: 5px;
+
+    
+}
+.hover-links img:hover{
+    background-color: grey;
+}
+.primary-button{
+    border-radius: 55px;
+    background-color:transparent;
+    font-weight: 700;
+    padding: 10px;
+    color:white!important;
+    padding: 12px 24px;
+    box-shadow: 0px 0px 0px 2px white;
+    transition: 0.2s ease-out;
+}
+.primary-button:hover{
+    background-color: grey;
+}
+.macbook{
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    align-items: center;
+}
+.ppp{
+    
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #86868b;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    max-width: 750px;
+    margin-left: 400px;
+    font-weight: 700;
+}
+.hh{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    text-align: center;   
+    margin-top: 104px; 
+}
+h6{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 17px;
+    color: #1d1d1f;
+}
+.secondary-button{
+    border-radius: 980px;
+    border-color: #1d1d1f;
+    padding: 150px;
+  
+    background-color:#1d1d1f;
+    font-weight: 700;
+    padding: 10px;
+    color:white!important;
+    padding: 12px 24px;
+    /* box-shadow: 0px 0px 0px 2px white; */
+    transition: 0.2s ease-out;
+}
+.secondary-button:hover{
+    background-color:rgb(79, 79, 79);
+}
+
+.third-button{
+    border-radius: 980px;
+    border-color: #1d1d1f;
+    padding: 150px;
+  
+    background-color:white;
+    font-weight: 700;
+    padding: 10px;
+    color:black!important;
+    padding: 12px 24px;
+    box-shadow: 0px 0px 0px 2px #1d1d1f ;
+    transition: 0.2s ease-out;
+}
+.third-button:hover{
+    background-color:rgb(79, 79, 79);
+}
+.buttons{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.mac{
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 260px;
+}
+.mac-studio{
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.mac-pro{
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left:25% ;
+}
+.contents{
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+    background-color: #1d1d1f;
+}
+.ll{
+    
+    color: #86868b;
+    text-align: center;
+}
+.hr{
+    color: #434345;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 25%;
+    margin-top: 30px;
+    gap: 10px;
+    text-decoration: none;
+    max-width: fit-content;
+    
+}
+.different{
+    text-decoration: none;
+    color: #86868b;
+}
+
+h4{
+    color: #f5f5f7;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: -413px;
+    gap: 10px;
+}
+.different:hover{
+    color: #434345;
+}
+.store{
+    display: flex;
+    flex-direction: column;
+    margin-left: 47%;
+    margin-top: -390px;
+    gap: 10px;
+}
+.business{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    margin-left: 57%;
+    margin-top: -300px ;
+}
+.values{
+    display: flex;
+    flex-direction: column;
+    margin-left: 68%;
+    margin-top: -359px;
+    gap: 10px;
+}
+.sub{
+    margin-left: 25%;
+    margin-top: 80px;
+}
+.head{
+    color:#86868b;
+    margin-left: 25px;
+}
+.hrr{
+    margin-right: 25%;
+}
+.copy{
+    display: flex;
+    flex-direction: row;
+    gap: px;
+    margin-left: 25%;
+}
+.pankha{
+color: #f5f5f7;
+margin-left: 75%;
+margin-top: 50px;
+}
